@@ -408,8 +408,7 @@ html,body {
 
 /* card section */
 .card--section {
-    width: 100%;
-    height: 100vh;
+    /* width: 100%; */
     background: #252B42;
     margin-top: 6%;
 }
@@ -425,4 +424,43 @@ html,body {
 .card--paragraph {
     margin-bottom: 10px;
     padding: 10px;
+}
+
+/* card */
+.main-card {
+    background: #fff;
+    width: 20%;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 4%;
+    overflow: hidden;
+}
+.card-header {
+    background: #2091F9;
+    text-align: center;
+    padding-top: 30px;
+    padding: 2rem;
+   
+}
+.card-type {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.card-quote {
+    display: block;
+    padding: 10px;
+}
+.card-price {
+    font-size: 1.7rem;
+}
+.card-month {
+   color: #252B42;
+}
+.card--body {
+    display:  block;
+    padding: 20px;
+}
+.card-button {
+    margin-top: 50px;
 }
