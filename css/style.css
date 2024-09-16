@@ -408,7 +408,6 @@ html,body {
 
 /* card section */
 .card--section {
-    /* width: 100%; */
     background: #252B42;
     margin-top: 6%;
 }
@@ -429,18 +428,21 @@ html,body {
 /* card */
 .main-card {
     background: #fff;
-    width: 20%;
+    width: 300px;
     height: 500px;
     text-align: center;
     border-radius: 10px;
     margin-top: 4%;
     overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0  10px 10px #0d1217;
 }
 .card-header {
     background: #2091F9;
     text-align: center;
     padding-top: 30px;
     padding: 2rem;
+    color: #fff;
    
 }
 .card-type {
@@ -463,4 +465,87 @@ html,body {
 }
 .card-button {
     margin-top: 50px;
+}
+.all-card {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+.popular-card {
+    height: 530px;
+    margin-top: 0;
+    background: #2091F9;
+}
+.popular-header {
+    background: #2091F9;
+}
+.popular-body {
+    color: #fff;
+}
+.popular-btn {
+    background: #fff;
+    color: #000;
+    ;
+}
+.popular-btn:hover {
+    background: #000
+}
+
+@media screen and (max-width: 768px) {
+    .all-card {
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
+@media screen and (max-width:350px) {
+    .main-card {
+        width: 100%;
+    }
+    .card--heading {
+        font-size: 0.9rem; 
+    }
+    .card--paragraph {
+        font-size: 0.7rem;
+    }
+    .card--body {
+        font-size: 0.7rem;
+    }
+    .card-type {
+        font-size: 1.1rem; 
+    }
+    .card-quote {
+        font-size: 0.7rem;
+    }
+    .card-price {
+        font-size: 1.1rem;
+    }
+    .card-month {
+        font-size: 0.7rem;
+    }
+}
+/* contact section */
+.contact-section {
+    text-align: center;
+    margin-top: 30px;
+}
+.contact-header {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
+.contact-para {
+    font-size: 1.2rem;
+    color: var(--color-primary);
+}
+@media screen and (max-width :450px) {
+    .contact-header {
+        font-size: 0.9rem; 
+    }
+    .contact-para {
+        font-size: 0.7rem;
+        padding: 0 20px;
+    }
 }
