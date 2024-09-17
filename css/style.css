@@ -625,7 +625,7 @@ textarea {
         font-size: 0.7rem;
         display: block;
         line-height: 2;
-        margin-left: 50px;
+        padding-left: 40px;
     }
     .img-icon {
         padding: 2px;
@@ -638,8 +638,19 @@ textarea {
     margin-top: 30px;
     background: #252B42;
     color: #fff;
-    padding: 20px;
+}
+.footer-section {
+   
+    padding: 40px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 10%;
+}
+.footer-list h3 {
+    font-size: 1.6rem;
 }
 ul {
     list-style: none;
@@ -649,4 +660,18 @@ ul {
 ul li a{
     text-decoration: none;
     color: #fff;
+}
+.footer-info {
+    line-height: 2;
+    text-align: left;
+    margin-top: 6%;
+}
+.footer-icons {
+ text-align: center;   
+}
+.copyright p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 100;
+    margin-bottom: 20px;
 }
